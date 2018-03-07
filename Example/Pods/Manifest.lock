@@ -1,5 +1,5 @@
 PODS:
-  - JCTesting (0.1.0)
+  - JCTesting (0.1.1)
 
 DEPENDENCIES:
   - JCTesting (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JCTesting: ce553046aa3a44e5a32ba3c58f0f41125193d151
+  JCTesting: 71c484b27a6f2f2f92472570b5f3f6cc1872ffa5
 
 PODFILE CHECKSUM: c2b2e546d6b43092a80065d3511c1216da800be4
 

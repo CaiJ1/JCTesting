@@ -14,11 +14,12 @@
 		5FF7A3F6BA39266ED86E08E2D49EC90C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7949070D94518C43B66EA00A783E2C1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AE61CA058A9305E94A378BF8B2FFD414 /* Pods-JCTesting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF613D4D0011B997FE60A8066636024C /* Pods-JCTesting_Tests-dummy.m */; };
+		C36694567CB936AF147DA50C3262425D /* jc.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA0ECB8EAE95D34AA7C5EA3EFCF2591C /* jc.bundle */; };
+		CAED76ED8223D4E9A038FB4AE3668274 /* IMG_2560.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 97D9E56B1052D94183B8F22CC4ED6B47 /* IMG_2560.JPG */; };
 		CF7873F2ACC2CD242DBC1129A13457C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D352A9076A4D9D6CE6880959D2EBB1C2 /* Pods-JCTesting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9EDD1954469BF3B757B856C2DDF2B5B /* Pods-JCTesting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB3BF065A923A6E87657069138545AA4 /* JCTesting.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AB00267203503EE0010211222781CEA /* JCTesting.bundle */; };
 		DD4BCC3CED71B31509487CA8389EDD5A /* Pods-JCTesting_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F350ACAD584570B4523BD3CC90EA28DC /* Pods-JCTesting_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2239E5EA5ECF8B3203AD14424B76B99 /* IMG_2560.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94AA457CAAD8DED26DDAD3AB794FD26B /* IMG_2560.JPG */; };
 		EF75B0E9804EC840CDE874B63C0B94A8 /* Pods-JCTesting_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E0651A91EC9B618E7B537A5A3F5E42 /* Pods-JCTesting_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -61,14 +62,15 @@
 		77CBC0B9F6F930A267B6A214B19233BB /* CCViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		9072E47FE744084063FC676E7FE9C101 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94AA457CAAD8DED26DDAD3AB794FD26B /* IMG_2560.JPG */ = {isa = PBXFileReference; includeInIndex = 1; path = IMG_2560.JPG; sourceTree = "<group>"; };
 		97A166B1B0C0A9079FFCF35CEA372A31 /* Pods-JCTesting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCTesting_Example.release.xcconfig"; sourceTree = "<group>"; };
+		97D9E56B1052D94183B8F22CC4ED6B47 /* IMG_2560.JPG */ = {isa = PBXFileReference; includeInIndex = 1; path = IMG_2560.JPG; sourceTree = "<group>"; };
 		A5B9C05D171ABB1A726DA964F0495484 /* Pods-JCTesting_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCTesting_Tests-resources.sh"; sourceTree = "<group>"; };
 		AA5A612D2C3639EF646F08472DD97FE6 /* Pods-JCTesting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JCTesting_Tests.modulemap"; sourceTree = "<group>"; };
 		AD22C4CF0E1180BBE080D3CDCA750FDB /* JCTesting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCTesting.xcconfig; sourceTree = "<group>"; };
 		B49210F8882BA603E50D6C97E1125ECC /* JCTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCTesting.framework; path = JCTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0596D6A5293269ED21D872A9DC910A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C86FCCDCF62F220239C62DFC4A9E221C /* Pods-JCTesting_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JCTesting_Example.modulemap"; sourceTree = "<group>"; };
+		CA0ECB8EAE95D34AA7C5EA3EFCF2591C /* jc.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = jc.bundle; sourceTree = "<group>"; };
 		CF613D4D0011B997FE60A8066636024C /* Pods-JCTesting_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCTesting_Tests-dummy.m"; sourceTree = "<group>"; };
 		CFDC246F355D51F77A217678FDC03E7A /* Pods-JCTesting_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCTesting_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D946BBBE686840D403B3A721929CB499 /* Pods-JCTesting_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCTesting_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -225,22 +227,23 @@
 			path = "Target Support Files/Pods-JCTesting_Example";
 			sourceTree = "<group>";
 		};
-		98B46A25017043D074B6628C22955F0F /* JCTesting */ = {
+		9858A8C4921BCFD7E7AE4D6738395C76 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B77BBE1E90F7BACB7FBB2F31889E1693 /* Assets */,
-			);
-			name = JCTesting;
-			path = JCTesting;
-			sourceTree = "<group>";
-		};
-		B77BBE1E90F7BACB7FBB2F31889E1693 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				94AA457CAAD8DED26DDAD3AB794FD26B /* IMG_2560.JPG */,
+				97D9E56B1052D94183B8F22CC4ED6B47 /* IMG_2560.JPG */,
+				CA0ECB8EAE95D34AA7C5EA3EFCF2591C /* jc.bundle */,
 			);
 			name = Assets;
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		ADCB6534BC48816DD79612EEEAF34B9A /* JCTesting */ = {
+			isa = PBXGroup;
+			children = (
+				9858A8C4921BCFD7E7AE4D6738395C76 /* Assets */,
+			);
+			name = JCTesting;
+			path = JCTesting;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -262,7 +265,7 @@
 		C63733BCD348582734DFDCD05F109076 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				98B46A25017043D074B6628C22955F0F /* JCTesting */,
+				ADCB6534BC48816DD79612EEEAF34B9A /* JCTesting */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -366,7 +369,7 @@
 			buildPhases = (
 				946C4C01FEBBBBFA2933172900B0C77A /* Sources */,
 				85B9A44445CF8734407C6D7BE50571C5 /* Frameworks */,
-				778A0CDC373F0CD8A51B2F15CC48F59C /* Resources */,
+				062583CCEE88D121C05C89555AE9F81E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -407,11 +410,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		778A0CDC373F0CD8A51B2F15CC48F59C /* Resources */ = {
+		062583CCEE88D121C05C89555AE9F81E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2239E5EA5ECF8B3203AD14424B76B99 /* IMG_2560.JPG in Resources */,
+				CAED76ED8223D4E9A038FB4AE3668274 /* IMG_2560.JPG in Resources */,
+				C36694567CB936AF147DA50C3262425D /* jc.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

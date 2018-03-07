@@ -1,8 +1,8 @@
 {
   "name": "JCTesting",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "JCTesting",
-  "description": "第二个仓库",
+  "description": "第二个私有仓库-用于测试",
   "homepage": "https://github.com/CaiJ1/JCTesting",
   "license": {
     "type": "MIT",
@@ -12,8 +12,8 @@
     "1127462679@qq.com": "1127462679@qq.com"
   },
   "source": {
-    "git": "https://github.com/CaiJ1/JCTesting",
-    "tag": "0.1.0"
+    "git": "https://github.com/CaiJ1/JCTesting.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,5 +24,5 @@
       "JCTesting/Assets/*"
     ]
   },
-  "public_header_files": "Pod/Classes/**/*.h"
+  "public_header_files": "JCTesting/Classes/**/*.h"
 }
