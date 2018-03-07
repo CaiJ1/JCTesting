@@ -1,0 +1,6 @@
+framework module JCTesting {
+  umbrella header "JCTesting-umbrella.h"
+
+  export *
+  module * { export * }
+}

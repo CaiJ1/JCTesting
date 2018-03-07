@@ -1,0 +1,16 @@
+PODS:
+  - JCTesting (0.1.0)
+
+DEPENDENCIES:
+  - JCTesting (from `../`)
+
+EXTERNAL SOURCES:
+  JCTesting:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JCTesting: 45d224589b16f4d86996e0d218cf11b8cb6a6c53
+
+PODFILE CHECKSUM: c2b2e546d6b43092a80065d3511c1216da800be4
+
+COCOAPODS: 1.2.1
