@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0200613A8AA62DFD58E88A73B4607CC6 /* JCTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19FE4291C3F43C3EC07B3B2A5CDBD7AB /* JCTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21F77AB9B9A9F69788C385A8C8B2C932 /* JCTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD1AE07EBD7642B89DA0A9FA96650C5 /* JCTesting-dummy.m */; };
+		03DAEFBD3F07C5B4B878BA5216657B50 /* JCTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8ADE3F7C3DB3DB69DCE6C91408C855 /* JCTesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E7F08F5D6EC8F15111827E02A6089B2 /* CCViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 31B2D672282BE86FAB0B15B56DB7794B /* CCViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F86E5BFCDFDF227AF77178EB008B4BC /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CBC0B9F6F930A267B6A214B19233BB /* CCViewController.m */; };
+		5FD5C770F208B69AFEC575BB826D42EE /* JCTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419298AA2771E4F9D1047C16B3F6994 /* JCTesting-dummy.m */; };
 		5FF7A3F6BA39266ED86E08E2D49EC90C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7949070D94518C43B66EA00A783E2C1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AE61CA058A9305E94A378BF8B2FFD414 /* Pods-JCTesting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF613D4D0011B997FE60A8066636024C /* Pods-JCTesting_Tests-dummy.m */; };
-		C3AFC7599EAB053C5E83A7876A8874E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CF7873F2ACC2CD242DBC1129A13457C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D352A9076A4D9D6CE6880959D2EBB1C2 /* Pods-JCTesting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9EDD1954469BF3B757B856C2DDF2B5B /* Pods-JCTesting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB3BF065A923A6E87657069138545AA4 /* JCTesting.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0AB00267203503EE0010211222781CEA /* JCTesting.bundle */; };
 		DD4BCC3CED71B31509487CA8389EDD5A /* Pods-JCTesting_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F350ACAD584570B4523BD3CC90EA28DC /* Pods-JCTesting_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2239E5EA5ECF8B3203AD14424B76B99 /* IMG_2560.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94AA457CAAD8DED26DDAD3AB794FD26B /* IMG_2560.JPG */; };
 		EF75B0E9804EC840CDE874B63C0B94A8 /* Pods-JCTesting_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E0651A91EC9B618E7B537A5A3F5E42 /* Pods-JCTesting_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -23,51 +27,70 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 666640E7B83782A0624EB40FFC27F158;
+			remoteGlobalIDString = AA22E3DCCF07F2F83E7A6305FF7B6720;
 			remoteInfo = JCTesting;
+		};
+		F1A6FDB3B176F206097EE6AB6BF07BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAAA17D6FB755C1375F322F5FA89BEF5;
+			remoteInfo = "JCTesting-JCTesting";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0419298AA2771E4F9D1047C16B3F6994 /* JCTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCTesting-dummy.m"; sourceTree = "<group>"; };
+		0AB00267203503EE0010211222781CEA /* JCTesting.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JCTesting.bundle; path = JCTesting.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F462FFAE2A8779378F4945C85129A42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19FE4291C3F43C3EC07B3B2A5CDBD7AB /* JCTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCTesting-umbrella.h"; sourceTree = "<group>"; };
+		0FE9844B41267EAEF310DFA4D00A7F64 /* Pods_JCTesting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCTesting_Example.framework; path = "Pods-JCTesting_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		194733DF0706F2371F050A46715EEB2A /* ResourceBundle-JCTesting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JCTesting-Info.plist"; sourceTree = "<group>"; };
 		1DDC1D385B09E16331A09BD46CC715E6 /* Pods-JCTesting_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCTesting_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1FD1AE07EBD7642B89DA0A9FA96650C5 /* JCTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCTesting-dummy.m"; sourceTree = "<group>"; };
 		25CE1340A780FA697EC05D66DC279DF9 /* Pods-JCTesting_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCTesting_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2726726C382E44B09D198C8761C87F40 /* Pods-JCTesting_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCTesting_Example-resources.sh"; sourceTree = "<group>"; };
-		31BBFA94F11C4D71CE063AF20CCEEE45 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B2D672282BE86FAB0B15B56DB7794B /* CCViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
 		4825C34974C002F87CB9086F1229677A /* Pods-JCTesting_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCTesting_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4A77D70B30D10487A7E0719E19F810C3 /* Pods-JCTesting_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCTesting_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A0E388A7F868D68F2ECF75B6BC094BA /* JCTesting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCTesting-prefix.pch"; sourceTree = "<group>"; };
 		5B4597BBD04BAE5129A8A3184D9790DB /* Pods-JCTesting_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCTesting_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		63A0DCFC63E3E2AD4E17D4A555168E5C /* Pods-JCTesting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCTesting_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		64E0651A91EC9B618E7B537A5A3F5E42 /* Pods-JCTesting_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCTesting_Example-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		87884BFD761854D6CC90F25028BC3B56 /* Pods_JCTesting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCTesting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8ADE3F7C3DB3DB69DCE6C91408C855 /* JCTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCTesting-umbrella.h"; sourceTree = "<group>"; };
+		76B0D1E34E00E544B397AEC848C3E894 /* Pods_JCTesting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCTesting_Tests.framework; path = "Pods-JCTesting_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77CBC0B9F6F930A267B6A214B19233BB /* CCViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
 		9072E47FE744084063FC676E7FE9C101 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AA457CAAD8DED26DDAD3AB794FD26B /* IMG_2560.JPG */ = {isa = PBXFileReference; includeInIndex = 1; path = IMG_2560.JPG; sourceTree = "<group>"; };
 		97A166B1B0C0A9079FFCF35CEA372A31 /* Pods-JCTesting_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCTesting_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A5061E2971E8018FFE7ED9358EC85C54 /* Pods_JCTesting_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCTesting_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B9C05D171ABB1A726DA964F0495484 /* Pods-JCTesting_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCTesting_Tests-resources.sh"; sourceTree = "<group>"; };
-		AA5A612D2C3639EF646F08472DD97FE6 /* Pods-JCTesting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCTesting_Tests.modulemap"; sourceTree = "<group>"; };
-		AD7D18078073B92CC1EDD8B821FAA73A /* JCTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE5E0C427D3D8EF2ADE947CD29106415 /* JCTesting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCTesting-prefix.pch"; sourceTree = "<group>"; };
-		C86FCCDCF62F220239C62DFC4A9E221C /* Pods-JCTesting_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCTesting_Example.modulemap"; sourceTree = "<group>"; };
-		CD69346EA27D1830592A89B1C562BD6D /* JCTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JCTesting.modulemap; sourceTree = "<group>"; };
+		AA5A612D2C3639EF646F08472DD97FE6 /* Pods-JCTesting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JCTesting_Tests.modulemap"; sourceTree = "<group>"; };
+		AD22C4CF0E1180BBE080D3CDCA750FDB /* JCTesting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCTesting.xcconfig; sourceTree = "<group>"; };
+		B49210F8882BA603E50D6C97E1125ECC /* JCTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JCTesting.framework; path = JCTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0596D6A5293269ED21D872A9DC910A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86FCCDCF62F220239C62DFC4A9E221C /* Pods-JCTesting_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JCTesting_Example.modulemap"; sourceTree = "<group>"; };
 		CF613D4D0011B997FE60A8066636024C /* Pods-JCTesting_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCTesting_Tests-dummy.m"; sourceTree = "<group>"; };
 		CFDC246F355D51F77A217678FDC03E7A /* Pods-JCTesting_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCTesting_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D946BBBE686840D403B3A721929CB499 /* Pods-JCTesting_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCTesting_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DD2A746CE2C2CA342175AA8991DFB712 /* JCTesting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCTesting.xcconfig; sourceTree = "<group>"; };
+		E8E432B72E7653ABFC9EDE5BDFD6E6BF /* JCTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JCTesting.modulemap; sourceTree = "<group>"; };
 		F350ACAD584570B4523BD3CC90EA28DC /* Pods-JCTesting_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCTesting_Example-umbrella.h"; sourceTree = "<group>"; };
 		F9EDD1954469BF3B757B856C2DDF2B5B /* Pods-JCTesting_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCTesting_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FA0F1F57A746C3D4C1285993D3215F61 /* Pods-JCTesting_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCTesting_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5D0F77053419CBFD31BDEB6F8E2E789C /* Frameworks */ = {
+		6031D4A9B4DADD91C892410E985BE423 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3AFC7599EAB053C5E83A7876A8874E3 /* Foundation.framework in Frameworks */,
+				7949070D94518C43B66EA00A783E2C1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85B9A44445CF8734407C6D7BE50571C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,10 +113,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		010C10597BAF8E35559B4B9B7EC8C0AF /* Classes */ = {
+		2461E8135764C8E7014BCF1A63D80A4E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				C0596D6A5293269ED21D872A9DC910A5 /* Info.plist */,
+				E8E432B72E7653ABFC9EDE5BDFD6E6BF /* JCTesting.modulemap */,
+				AD22C4CF0E1180BBE080D3CDCA750FDB /* JCTesting.xcconfig */,
+				0419298AA2771E4F9D1047C16B3F6994 /* JCTesting-dummy.m */,
+				5A0E388A7F868D68F2ECF75B6BC094BA /* JCTesting-prefix.pch */,
+				6D8ADE3F7C3DB3DB69DCE6C91408C855 /* JCTesting-umbrella.h */,
+				194733DF0706F2371F050A46715EEB2A /* ResourceBundle-JCTesting-Info.plist */,
 			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JCTesting";
+			sourceTree = "<group>";
+		};
+		296A8E1134C51E4B2B8D2B746EEB0763 /* JCTesting */ = {
+			isa = PBXGroup;
+			children = (
+				864E23A2A428FDA29F6C59D40B993271 /* JCTesting */,
+				C63733BCD348582734DFDCD05F109076 /* Resources */,
+				2461E8135764C8E7014BCF1A63D80A4E /* Support Files */,
+			);
+			name = JCTesting;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3CC324B6F248732836CFA466F0C667DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				31B2D672282BE86FAB0B15B56DB7794B /* CCViewController.h */,
+				77CBC0B9F6F930A267B6A214B19233BB /* CCViewController.m */,
+			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -106,55 +158,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		490DCC07AA9AC273EBC687044FBEC049 /* JCTesting */ = {
+		4B81685E3ACA62DE5DF12EB856703449 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				010C10597BAF8E35559B4B9B7EC8C0AF /* Classes */,
+				0AB00267203503EE0010211222781CEA /* JCTesting.bundle */,
+				B49210F8882BA603E50D6C97E1125ECC /* JCTesting.framework */,
+				0FE9844B41267EAEF310DFA4D00A7F64 /* Pods_JCTesting_Example.framework */,
+				76B0D1E34E00E544B397AEC848C3E894 /* Pods_JCTesting_Tests.framework */,
 			);
-			path = JCTesting;
-			sourceTree = "<group>";
-		};
-		74AC61DCACBD886C441E83A741492B9B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				80AC29ABB2C119CA6A1D408BAAE00FA2 /* JCTesting */,
-			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				74AC61DCACBD886C441E83A741492B9B /* Development Pods */,
+				C5649CB5D98E4B320CC2DD780A6F6EE0 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C2D8F1B54D7A07DDFAF934A610C685F7 /* Products */,
+				4B81685E3ACA62DE5DF12EB856703449 /* Products */,
 				4720373440EA8F2F134B8B52F8E83256 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7EB634789FA5B6AD360398C618903C70 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				31BBFA94F11C4D71CE063AF20CCEEE45 /* Info.plist */,
-				CD69346EA27D1830592A89B1C562BD6D /* JCTesting.modulemap */,
-				DD2A746CE2C2CA342175AA8991DFB712 /* JCTesting.xcconfig */,
-				1FD1AE07EBD7642B89DA0A9FA96650C5 /* JCTesting-dummy.m */,
-				AE5E0C427D3D8EF2ADE947CD29106415 /* JCTesting-prefix.pch */,
-				19FE4291C3F43C3EC07B3B2A5CDBD7AB /* JCTesting-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JCTesting";
-			sourceTree = "<group>";
-		};
-		80AC29ABB2C119CA6A1D408BAAE00FA2 /* JCTesting */ = {
-			isa = PBXGroup;
-			children = (
-				490DCC07AA9AC273EBC687044FBEC049 /* JCTesting */,
-				7EB634789FA5B6AD360398C618903C70 /* Support Files */,
-			);
-			name = JCTesting;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		815799BD51C69BCD9A477C2D0AA77777 /* Pods-JCTesting_Tests */ = {
@@ -175,6 +198,15 @@
 			path = "Target Support Files/Pods-JCTesting_Tests";
 			sourceTree = "<group>";
 		};
+		864E23A2A428FDA29F6C59D40B993271 /* JCTesting */ = {
+			isa = PBXGroup;
+			children = (
+				3CC324B6F248732836CFA466F0C667DE /* Classes */,
+			);
+			name = JCTesting;
+			path = JCTesting;
+			sourceTree = "<group>";
+		};
 		8EE98EF453A6A95C56080D0C66FC3D24 /* Pods-JCTesting_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +225,24 @@
 			path = "Target Support Files/Pods-JCTesting_Example";
 			sourceTree = "<group>";
 		};
+		98B46A25017043D074B6628C22955F0F /* JCTesting */ = {
+			isa = PBXGroup;
+			children = (
+				B77BBE1E90F7BACB7FBB2F31889E1693 /* Assets */,
+			);
+			name = JCTesting;
+			path = JCTesting;
+			sourceTree = "<group>";
+		};
+		B77BBE1E90F7BACB7FBB2F31889E1693 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				94AA457CAAD8DED26DDAD3AB794FD26B /* IMG_2560.JPG */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,14 +251,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C2D8F1B54D7A07DDFAF934A610C685F7 /* Products */ = {
+		C5649CB5D98E4B320CC2DD780A6F6EE0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD7D18078073B92CC1EDD8B821FAA73A /* JCTesting.framework */,
-				A5061E2971E8018FFE7ED9358EC85C54 /* Pods_JCTesting_Example.framework */,
-				87884BFD761854D6CC90F25028BC3B56 /* Pods_JCTesting_Tests.framework */,
+				296A8E1134C51E4B2B8D2B746EEB0763 /* JCTesting */,
 			);
-			name = Products;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C63733BCD348582734DFDCD05F109076 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98B46A25017043D074B6628C22955F0F /* JCTesting */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -230,19 +286,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		460ADD8E8558DC8491DFC6E4C0BE1E1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7F08F5D6EC8F15111827E02A6089B2 /* CCViewController.h in Headers */,
+				03DAEFBD3F07C5B4B878BA5216657B50 /* JCTesting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B3CC6F9839690758D81651DD828C510 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D352A9076A4D9D6CE6880959D2EBB1C2 /* Pods-JCTesting_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5B62ED2C00DF73CC999E1887928CCFD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0200613A8AA62DFD58E88A73B4607CC6 /* JCTesting-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +321,7 @@
 			);
 			name = "Pods-JCTesting_Example";
 			productName = "Pods-JCTesting_Example";
-			productReference = A5061E2971E8018FFE7ED9358EC85C54 /* Pods_JCTesting_Example.framework */;
+			productReference = 0FE9844B41267EAEF310DFA4D00A7F64 /* Pods_JCTesting_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5651FAD8B6A66A78B9B9ABC427CE3AF8 /* Pods-JCTesting_Tests */ = {
@@ -281,25 +338,44 @@
 			);
 			name = "Pods-JCTesting_Tests";
 			productName = "Pods-JCTesting_Tests";
-			productReference = 87884BFD761854D6CC90F25028BC3B56 /* Pods_JCTesting_Tests.framework */;
+			productReference = 76B0D1E34E00E544B397AEC848C3E894 /* Pods_JCTesting_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		666640E7B83782A0624EB40FFC27F158 /* JCTesting */ = {
+		AA22E3DCCF07F2F83E7A6305FF7B6720 /* JCTesting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6BD5F3CF35936AF9F75F9E697ED81084 /* Build configuration list for PBXNativeTarget "JCTesting" */;
+			buildConfigurationList = EFA0794655E3EADCA83ECF5C1BABBA49 /* Build configuration list for PBXNativeTarget "JCTesting" */;
 			buildPhases = (
-				5DAC1B276FBC13CD15F8692EF4DF5779 /* Sources */,
-				5D0F77053419CBFD31BDEB6F8E2E789C /* Frameworks */,
-				F5B62ED2C00DF73CC999E1887928CCFD /* Headers */,
+				DC2EF946BF7E56FDE430102D6AFCFC88 /* Sources */,
+				6031D4A9B4DADD91C892410E985BE423 /* Frameworks */,
+				92628870AF05F26BC03EB3D1F8A4D216 /* Resources */,
+				460ADD8E8558DC8491DFC6E4C0BE1E1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA0F8F5D99AFC89491649291087589E /* PBXTargetDependency */,
+			);
+			name = JCTesting;
+			productName = JCTesting;
+			productReference = B49210F8882BA603E50D6C97E1125ECC /* JCTesting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAAA17D6FB755C1375F322F5FA89BEF5 /* JCTesting-JCTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6819EB9B4BA331233B1884D39A4259 /* Build configuration list for PBXNativeTarget "JCTesting-JCTesting" */;
+			buildPhases = (
+				946C4C01FEBBBBFA2933172900B0C77A /* Sources */,
+				85B9A44445CF8734407C6D7BE50571C5 /* Frameworks */,
+				778A0CDC373F0CD8A51B2F15CC48F59C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = JCTesting;
-			productName = JCTesting;
-			productReference = AD7D18078073B92CC1EDD8B821FAA73A /* JCTesting.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "JCTesting-JCTesting";
+			productName = "JCTesting-JCTesting";
+			productReference = 0AB00267203503EE0010211222781CEA /* JCTesting.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -318,16 +394,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C2D8F1B54D7A07DDFAF934A610C685F7 /* Products */;
+			productRefGroup = 4B81685E3ACA62DE5DF12EB856703449 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				666640E7B83782A0624EB40FFC27F158 /* JCTesting */,
+				AA22E3DCCF07F2F83E7A6305FF7B6720 /* JCTesting */,
+				AAAA17D6FB755C1375F322F5FA89BEF5 /* JCTesting-JCTesting */,
 				2D262E86CB0824F470E63F8A10A55AC6 /* Pods-JCTesting_Example */,
 				5651FAD8B6A66A78B9B9ABC427CE3AF8 /* Pods-JCTesting_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		778A0CDC373F0CD8A51B2F15CC48F59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2239E5EA5ECF8B3203AD14424B76B99 /* IMG_2560.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92628870AF05F26BC03EB3D1F8A4D216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3BF065A923A6E87657069138545AA4 /* JCTesting.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		11C4532F51B9E6AB166CC311D0385158 /* Sources */ = {
@@ -346,11 +442,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DAC1B276FBC13CD15F8692EF4DF5779 /* Sources */ = {
+		946C4C01FEBBBBFA2933172900B0C77A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21F77AB9B9A9F69788C385A8C8B2C932 /* JCTesting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2EF946BF7E56FDE430102D6AFCFC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F86E5BFCDFDF227AF77178EB008B4BC /* CCViewController.m in Sources */,
+				5FD5C770F208B69AFEC575BB826D42EE /* JCTesting-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,8 +464,14 @@
 		99187DCBC7DBA03B9BBE1D91A33BD345 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JCTesting;
-			target = 666640E7B83782A0624EB40FFC27F158 /* JCTesting */;
+			target = AA22E3DCCF07F2F83E7A6305FF7B6720 /* JCTesting */;
 			targetProxy = 458A2A21835E7B69ED4A855FED400AED /* PBXContainerItemProxy */;
+		};
+		FDA0F8F5D99AFC89491649291087589E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JCTesting-JCTesting";
+			target = AAAA17D6FB755C1375F322F5FA89BEF5 /* JCTesting-JCTesting */;
+			targetProxy = F1A6FDB3B176F206097EE6AB6BF07BCC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -482,9 +592,9 @@
 			};
 			name = Release;
 		};
-		34BFEAAAEE075CD278418E9B7CC845D1 /* Debug */ = {
+		2CD52D1086D148CD289EDCA443C03695 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD2A746CE2C2CA342175AA8991DFB712 /* JCTesting.xcconfig */;
+			baseConfigurationReference = AD22C4CF0E1180BBE080D3CDCA750FDB /* JCTesting.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -550,37 +660,39 @@
 			};
 			name = Release;
 		};
-		D67DA06EE1F65561E652DAD7968B7E92 /* Release */ = {
+		9E2AC25F21CDCFA86B7F0ED1E21D3794 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD2A746CE2C2CA342175AA8991DFB712 /* JCTesting.xcconfig */;
+			baseConfigurationReference = AD22C4CF0E1180BBE080D3CDCA750FDB /* JCTesting.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCTesting";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JCTesting/JCTesting-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JCTesting/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/JCTesting/ResourceBundle-JCTesting-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JCTesting/JCTesting.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = JCTesting;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		D1975E71A1F4D1C8B60B1DC837D8E261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD22C4CF0E1180BBE080D3CDCA750FDB /* JCTesting.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JCTesting";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/JCTesting/ResourceBundle-JCTesting-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = JCTesting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -630,6 +742,38 @@
 			};
 			name = Debug;
 		};
+		ED4FBB066D43C580DDB6BBDEC373CC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD22C4CF0E1180BBE080D3CDCA750FDB /* JCTesting.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JCTesting/JCTesting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCTesting/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCTesting/JCTesting.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JCTesting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FA709280329BDB3E15E44E06C4CCB124 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA0F1F57A746C3D4C1285993D3215F61 /* Pods-JCTesting_Example.debug.xcconfig */;
@@ -678,11 +822,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BD5F3CF35936AF9F75F9E697ED81084 /* Build configuration list for PBXNativeTarget "JCTesting" */ = {
+		CC6819EB9B4BA331233B1884D39A4259 /* Build configuration list for PBXNativeTarget "JCTesting-JCTesting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34BFEAAAEE075CD278418E9B7CC845D1 /* Debug */,
-				D67DA06EE1F65561E652DAD7968B7E92 /* Release */,
+				D1975E71A1F4D1C8B60B1DC837D8E261 /* Debug */,
+				9E2AC25F21CDCFA86B7F0ED1E21D3794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -692,6 +836,15 @@
 			buildConfigurations = (
 				202ABB61F28450FFDFA7513944BA0CA4 /* Debug */,
 				268DD00277D43BB1FFC8DB20CF20784E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA0794655E3EADCA83ECF5C1BABBA49 /* Build configuration list for PBXNativeTarget "JCTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD52D1086D148CD289EDCA443C03695 /* Debug */,
+				ED4FBB066D43C580DDB6BBDEC373CC3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

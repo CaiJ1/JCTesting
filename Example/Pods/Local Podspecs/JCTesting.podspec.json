@@ -1,22 +1,28 @@
 {
   "name": "JCTesting",
   "version": "0.1.0",
-  "summary": "A short description of JCTesting.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1127462679@qq.com/JCTesting",
+  "summary": "JCTesting",
+  "description": "第二个仓库",
+  "homepage": "https://github.com/CaiJ1/JCTesting",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "1127462679@qq.com": "jiacai@jd.com"
+    "1127462679@qq.com": "1127462679@qq.com"
   },
   "source": {
-    "git": "https://github.com/1127462679@qq.com/JCTesting.git",
+    "git": "https://github.com/CaiJ1/JCTesting",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JCTesting/Classes/**/*"
+  "source_files": "JCTesting/Classes/**/*",
+  "resource_bundles": {
+    "JCTesting": [
+      "JCTesting/Assets/*"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h"
 }

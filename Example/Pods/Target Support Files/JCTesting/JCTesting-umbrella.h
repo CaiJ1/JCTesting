@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CCViewController.h"
 
 FOUNDATION_EXPORT double JCTestingVersionNumber;
 FOUNDATION_EXPORT const unsigned char JCTestingVersionString[];
