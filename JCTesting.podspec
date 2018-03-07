@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JCTesting'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'JCTesting'
 
 # This description is used to generate tags and improve search results.
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-第二个仓库
+第二个私有仓库-用于测试
                        DESC
 
   s.homepage         = 'https://github.com/CaiJ1/JCTesting'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1127462679@qq.com' => '1127462679@qq.com' }
-  s.source           = { :git => 'https://github.com/CaiJ1/JCTesting', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/CaiJ1/JCTesting.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'JCTesting/Classes/**/*'
   
   s.resource_bundles = {
-    'JCTesting' => ['JCTesting/Assets/*.png']
+    'JCTesting' => ['JCTesting/Assets/*']
   }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
